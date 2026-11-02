@@ -5,11 +5,14 @@ Three small, original Google Apps Script tools for the part of operations work t
 scratch for this repo, generic and config-driven, no company data or endpoints in it. The real
 version of this (real recipients, a real reminder cadence, a real admin console) belongs to my
 employer; the write-ups for that are in
-[case-studies](https://github.com/nishantaraaj-prog/case-studies).
+[case-studies](https://github.com/nishantaraaj-prog/case-studies), under
+`05-Automation-And-AI`.
 
-## What's here
+## Folder map
 
-| File | What it does |
+Everything lives in `Src/`, ready to paste into an Apps Script project.
+
+| File in `Src/` | What it does |
 |---|---|
 | `Config.gs` | Reads settings from Script Properties, no secrets committed to the script |
 | `DailyReport.gs` | Builds and emails a daily snapshot from a sheet of raw records |
@@ -44,7 +47,7 @@ is never sent twice, even if the trigger fires twice or the script is re-run by 
 
 ## How I'd wire this up
 
-1. Paste the three `.gs` files and `appsscript.json` into a bound or standalone Apps Script
+1. Paste the `.gs` files and `appsscript.json` from `Src/` into a bound or standalone Apps Script
    project.
 2. Set the Script Properties above.
 3. Run `Reminders.scanAndSendReminders` and `DailyReport.sendDailySnapshotEmail` once by hand to
