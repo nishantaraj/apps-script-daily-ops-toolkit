@@ -5,7 +5,7 @@ Three small, original Google Apps Script tools for the part of operations work t
 scratch for this repo, generic and config-driven, no company data or endpoints in it. The real
 version of this (real recipients, a real reminder cadence, a real admin console) belongs to my
 employer; the write-ups for that are in
-[case-studies](https://github.com/nishantaraaj-prog/case-studies), under
+[case-studies](https://github.com/nishantaraj/case-studies), under
 `05-Automation-And-AI`.
 
 ## Folder map
